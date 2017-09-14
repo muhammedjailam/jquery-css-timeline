@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery and CSS Timeline</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/timeline.css">
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<div class="timeline-container">
+    <div class="timeline">
+        <div class="line"></div>
+        <div id="progress-line" class="line"></div>
+        <ol>
+            <li data-date="01/02/2017">
+                <i class="fa fa-archive"></i>
+                <span>Order Created</span>
+                <span class="details">01/02/2017</span>
+            </li>
+            <li data-date="01/18/2017" class="current">
+                <i class="fa fa-ship"></i>
+                <span>Item Shipped</span>
+                <span class="details">01/18/2017</span>
+            </li>
+            <li data-date="01/30/2017">
+                <i class="fa fa-building"></i>
+                <span>Item Arrived</span>
+                <span class="details">01/30/2017</span>
+            </li>
+        </ol>
+    </div>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="js/timeline.js"></script>
+</body>
+</html>
