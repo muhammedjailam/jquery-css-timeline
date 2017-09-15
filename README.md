@@ -2,7 +2,7 @@
 This is a simple jQuery and CSS timeline which can be used to represent information on the timeline. This jQuery and CSS timeline is only provides the basic functionality. The files may be needed to be futher modified and styled accordance with your usage. 
 
 ## Usage ##
-Just list down all the dates as an ordered list `<ol>`. Add `data-date` tag to the list item `<li>` objects. Add an icon using an icon font (used FontAwesome) in the `<i>` tag. Add a name can be given in the `<span>` tag (optional). A detailed description can be given in the `<span class="details"></span>` tag. The current class needed to be given to the latest event. A start date and estimated end date must be given. The first `<li>` child must have the start date. And the last `li` child must have the end date.
+Just list down all the dates as an ordered list `<ol>`. Add `data-date` data tag to the list item `<li>` objects. Add an icon using an icon font (used FontAwesome) in the `<i>` tag. A name can be given for each mark on the time-line by putting in in the `<span>` tag. A detailed description can be given in the `<span class="details"></span>` tag. The description will appear when the ursor hover to the mark on the timeline. The current class needs to be given to the latest event. A start date and estimated end date must be given. The first `<li>` child must have the start date. And the last `li` child must have the end date.
 
 Example HTML for the Timeline:
 
