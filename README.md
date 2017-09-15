@@ -1,6 +1,10 @@
 ## Introducion ##
 This is a simple jQuery and CSS timeline which can be used to represent information as a timeline. This jQuery and CSS timeline provides the basic functionality. It is meant to be futher modified and styled based on how and where you may use it. 
 
+View Demo here https://codepen.io/muhammedjailam/pen/ZXGBZv
+
+
+
 ## How to install ##
 Link the CSS file in the header section of your web page. 
 
